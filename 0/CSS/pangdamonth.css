@@ -1,0 +1,49 @@
+.oil img{
+    height: 550px;
+    width: 700px;
+    border-radius: 20px;
+    object-fit: cover;
+    flex: 1 1 30px;
+    display: block;
+    margin: auto;
+}
+ 
+
+.oil  img{
+    flex:1 1 30px;
+    width:500px;
+    animation: moving 3s linear infinite;
+}
+
+@keyframes moving{
+    0%{transform:translateX(0rem);}
+    50%{transform:translateX(2rem);}
+    100%{transform:translateX(0rem);}
+}
+.oil .month{
+    
+    padding: 2px;
+    background-color: brown;
+    color:white;
+    width: 150px;
+    size: 10px;
+    /* text-align: center;  */
+}
+
+.oil li{
+    text-align: center;
+    
+    font-size: 30px;
+
+}
+
+.oil .good{
+    text-align: center;
+    
+    font-size: 25px;
+
+}
+
+.oil .row .col-xs-12 .text-muted{
+    padding: 100px;
+}
